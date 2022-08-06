@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #092521;
+  --secondary-color: #241c15;
+  --acсent-color: #adcae5;
+  --border-color: #8a7069;
+  --white-color: #fff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border: 1px solid #9fbcd7;
+}
+
+body {
+  margin: 80px auto;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 98px;
+  font-family: "Playfair Display";
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navigation-links a:hover {
+  text-decoration: underline;
+  color: var(--border-color);
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--border-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.permanent-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-family: "Poppins";
+}
+.permanent-link:hover {
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+ul {
+  font-family: "Poppins";
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 48px;
+  font-family: "Playfair Display";
+}
+
+h4 {
+  color: var(--secondary-color);
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+.project p {
+  background: none;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  display: block;
+  font-family: "Poppins";
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 24px;
+  opacity: 0.7;
+  font-family: "Poppins";
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+  padding: 0 100px 0 100px;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  background: var(--acсent-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  font-family: "Poppins";
+}
+
+#contact {
+  display: block;
+  font-family: "Playfair Display";
+}
+@media (max-width: 600px) {
+  p {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+}
