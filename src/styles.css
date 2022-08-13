@@ -74,7 +74,7 @@ img {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
@@ -105,7 +105,7 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -161,6 +161,7 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  font-weight: 500;
 }
 
 footer .email-link:hover {
@@ -198,7 +199,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   h2 {
